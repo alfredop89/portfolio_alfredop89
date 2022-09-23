@@ -29,7 +29,7 @@ header {
 .progressBar {
   height: 6px;
   width: 0%;
-  background-color: #118cd8; }
+  background-color: aqua; }
 
 .section-banner {
   position: relative;
