@@ -1,0 +1,40 @@
+@import "./header";
+@import "./banner";
+@import "./footer";
+@import "./habilidades";
+@import "./logo_section";
+@import "./queries";
+@import "./dark_button";
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    padding: 0;
+    scroll-behavior: smooth;
+    h1, h2, h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+    .link-button{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: aqua;
+        width: auto;
+        padding: 12px 15px;
+        border-radius: 4px;
+
+    }
+}
+.dark-theme{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    transition: 0.5 all ease;
+    footer, i{
+        color: white;
+    }
+    hr{
+        background-color: rgba(255, 255, 255, 0.567);
+    }
+}
+#proyectos{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.188);
+}

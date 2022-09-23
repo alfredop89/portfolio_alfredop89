@@ -1,0 +1,61 @@
+.section-banner{
+    position: relative;
+    background-image: url(../assets/img/space-bkg.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden !important;
+    z-index: 0;
+    .text-container{
+        width: 100%;
+        height: 100vh;
+        padding: 30px;
+    }
+    .banner-text{
+        text-align: start;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.053);
+        z-index: 100 !important;
+        border-bottom: 8px solid white;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.099);
+        h1{
+            font-size: 80px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .astro-container{
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        .cloud-img{
+            position: absolute;
+            transform: translateX(-10px);
+            height: 400px;
+            bottom: 0;
+            left: 0;
+            z-index: -2;
+        }
+        .cloud-two{
+            position: absolute;
+            height: 850px;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    .wave-one{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+    }
+    
+}
+}

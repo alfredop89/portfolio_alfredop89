@@ -1,0 +1,222 @@
+header {
+  position: fixed;
+  transition: 0.6s all ease-in-out;
+  z-index: 100;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.817) 0%, rgba(255, 255, 255, 0) 100%); }
+  header .logo {
+    height: 60px; }
+  header .bar-nav {
+    font-size: 30px;
+    color: white; }
+  header nav .navbar-nav {
+    margin: 0 !important; }
+  header nav a {
+    color: white !important; }
+
+.dark-header {
+  background-color: rgba(0, 0, 0, 0.798);
+  color: white; }
+  .dark-header a {
+    color: white; }
+
+.barContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 6px;
+  z-index: 200; }
+
+.progressBar {
+  height: 6px;
+  width: 0%;
+  background-color: #118cd8; }
+
+.section-banner {
+  position: relative;
+  background-image: url(../assets/img/space-bkg.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden !important;
+  z-index: 0; }
+  .section-banner .text-container {
+    width: 100%;
+    height: 100vh;
+    padding: 30px; }
+  .section-banner .banner-text {
+    text-align: start;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.053);
+    z-index: 100 !important;
+    border-bottom: 8px solid white;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.099); }
+    .section-banner .banner-text h1 {
+      font-size: 80px;
+      font-weight: 500; }
+    .section-banner .banner-text p {
+      font-size: 25px; }
+  .section-banner .astro-container {
+    height: auto;
+    overflow: hidden;
+    width: 100%; }
+    .section-banner .astro-container .cloud-img {
+      position: absolute;
+      transform: translateX(-10px);
+      height: 400px;
+      bottom: 0;
+      left: 0;
+      z-index: -2; }
+    .section-banner .astro-container .cloud-two {
+      position: absolute;
+      height: 850px;
+      right: 0;
+      bottom: 0;
+      z-index: -1; }
+    .section-banner .astro-container .wave-one {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 200px;
+      margin-top: 50px; }
+
+footer {
+  background-color: white;
+  color: black;
+  z-index: 1; }
+  footer i {
+    color: black;
+    font-size: 30px;
+    margin: 10px; }
+  footer i:hover {
+    color: aqua; }
+  footer .icon-footer {
+    height: 25px;
+    margin-right: 15px; }
+
+.habilidades i {
+  font-size: 70px;
+  text-align: center !important;
+  color: #22c3c3; }
+.habilidades hr {
+  color: rgba(0, 0, 0, 0.396); }
+
+.logo-section {
+  position: relative;
+  height: 550px;
+  background-image: url(../assets/img/space-bkg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 !important; }
+  .logo-section .wave-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    margin: 0 !important;
+    padding: 0 !important; }
+  .logo-section .wave-three {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    margin: 0 !important;
+    padding: 0 !important; }
+  .logo-section .logo-sec {
+    height: 250px;
+    padding: 0 !important; }
+
+@media screen and (min-width: 992px) {
+  .bar-nav {
+    display: none; } }
+@media screen and (max-width: 992px) {
+  header {
+    padding: 80px !important; }
+
+  .logo {
+    height: 50px !important; } }
+@media screen and (max-width: 575.98px) {
+  .banner-text {
+    background-color: rgba(0, 0, 0, 0.186);
+    text-align: center;
+    margin: 10px; }
+    .banner-text h1 {
+      font-size: 40px !important; }
+    .banner-text p {
+      font-size: 15px !important; }
+
+  .cloud-img {
+    height: 200px !important; }
+
+  .cloud-two {
+    height: 450px !important; }
+
+  .wave-one {
+    display: none; }
+
+  .wave-two {
+    display: none; }
+
+  .wave-three {
+    display: none; }
+
+  .proyectos {
+    margin: 0; } }
+.dark-button {
+  position: fixed;
+  background-color: rgba(0, 255, 255, 0.286);
+  right: 0;
+  bottom: 0;
+  margin: 15px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer; }
+  .dark-button i {
+    font-size: 35px;
+    border: none; }
+
+.dark-button-active {
+  background-color: #01bdbd;
+  color: white; }
+  .dark-button-active i {
+    border: none; }
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  padding: 0;
+  scroll-behavior: smooth; }
+  body h1, body h2, body h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; }
+  body .link-button {
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    width: auto;
+    padding: 12px 15px;
+    border-radius: 4px; }
+
+.dark-theme {
+  background-color: #2b2b2b;
+  color: white;
+  transition: 0.5 all ease; }
+  .dark-theme footer, .dark-theme i {
+    color: white; }
+  .dark-theme hr {
+    background-color: rgba(255, 255, 255, 0.567); }
+
+#proyectos {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.188); }
+
+/*# sourceMappingURL=style.css.map */

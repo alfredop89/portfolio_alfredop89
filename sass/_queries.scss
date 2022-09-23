@@ -1,0 +1,51 @@
+// QUERIES
+
+@media  screen and (min-width : 992px) {
+    .bar-nav{
+        display: none;
+    }
+
+}
+@media  screen and (max-width : 992px) {
+    header{
+        padding: 80px !important;
+    }
+    .logo{
+        height: 50px !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 575.98px){
+
+    .banner-text{
+        background-color: rgba(0, 0, 0, 0.186);
+        text-align: center;
+        margin: 10px;
+        h1{
+            font-size: 40px !important;
+        }
+        p{
+            font-size: 15px !important;
+        }
+    }
+    .cloud-img{
+        height: 200px !important;
+    }
+    .cloud-two{
+        height: 450px !important;
+    }
+    .wave-one{
+        display: none;
+    }
+    .wave-two{
+        display: none;
+    }
+    .wave-three{
+        display: none;
+    }
+    .proyectos{
+        margin: 0;
+    }
+}

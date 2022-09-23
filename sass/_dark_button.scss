@@ -1,0 +1,21 @@
+.dark-button{
+    position: fixed;
+    background-color: rgba(0, 255, 255, 0.286);
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    i{
+        font-size: 35px;
+        border: none;
+    }
+}
+.dark-button-active{
+    background-color: rgb(1, 189, 189);
+    color: white;
+    i{
+        border: none;
+    }
+}
