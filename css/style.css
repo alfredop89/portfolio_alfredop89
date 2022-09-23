@@ -150,7 +150,7 @@ footer {
   .banner-text {
     background-color: rgba(0, 0, 0, 0.186);
     text-align: center;
-    margin: 10px; }
+    margin-bottom: 100px; }
     .banner-text h1 {
       font-size: 40px !important; }
     .banner-text p {
