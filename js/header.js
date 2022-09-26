@@ -23,7 +23,6 @@ window.onscroll = () =>{
     let load = document.documentElement.scrollTop / windowHeight * 100
 
     progress.style.width = load + '%'
-    logo.style.marginBottom = load *0.5 + 'px'
     
 
 }
