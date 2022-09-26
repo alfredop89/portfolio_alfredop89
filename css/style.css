@@ -207,7 +207,7 @@ body {
     border-radius: 4px; }
 
 .dark-theme {
-  background-color: #2b2b2b;
+  background-color: #2e2e2eff;
   color: white;
   transition: 0.5 all ease; }
   .dark-theme footer, .dark-theme i {

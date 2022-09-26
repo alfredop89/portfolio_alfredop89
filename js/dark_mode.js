@@ -1,4 +1,5 @@
 let darkButton = document.createElement('div')
+let logoSection = document.querySelector('.logo-section')
 
 darkButton.classList.add('dark-button')
 darkButton.innerHTML = `
@@ -19,6 +20,4 @@ darkButton.onclick = () =>{
     bio.classList.toggle('dark-theme')
     habilidades.classList.toggle('dark-theme')
     footer.classList.toggle('dark-theme')
-
-
 }
