@@ -1,5 +1,4 @@
 let darkButton = document.createElement('div')
-let logoSection = document.querySelector('.logo-section')
 
 darkButton.classList.add('dark-button')
 darkButton.innerHTML = `
@@ -12,6 +11,10 @@ darkButton.onclick = () =>{
     let moon = document.querySelector('#moon-button')
     let bio = document.querySelector('.bio')
     let habilidades = document.querySelector('#habilidades')
+    let steps = document.querySelector('.steps')
+    let stepNumber = document.querySelector('.step-number')
+    let spanTitle = document.querySelector('.span-title')
+    let proyectos = document.querySelector('.proyectos')
     let footer = document.querySelector('footer')
 
     moon.classList.toggle('dark-button-active')
@@ -19,5 +22,9 @@ darkButton.onclick = () =>{
 
     bio.classList.toggle('dark-theme')
     habilidades.classList.toggle('dark-theme')
+    steps.classList.toggle('dark-theme')
     footer.classList.toggle('dark-theme')
+    spanTitle.classList.toggle('dark-theme')
+    proyectos.classList.toggle('dark-theme')
+    footer.style.borderTop = '5px solid aqua'
 }

@@ -5,6 +5,7 @@
 @import "./logo_section";
 @import "./queries";
 @import "./dark_button";
+@import "./steps";
 
 *{
     margin: 0;
@@ -34,6 +35,22 @@ body{
     background-color: #2e2e2eff;
     color: white;
     transition: 0.5 all ease;
+    .step-number{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+    }
+    .span-title{
+        background-color: white;
+        color: black;
+    }
+    .span-title-two{
+        background-color: white;
+        color: black;
+    }
+    .span-title-three{
+        background-color: white;
+        color: black;
+    }
     footer, i{
         color: white;
     }
