@@ -235,10 +235,6 @@ footer {
   .dark-button-active i {
     border: none; }
 
-.steps-container {
-  overflow: hidden;
-  margin: 0 !important; }
-
 .step-number {
   position: relative;
   font-size: 160px;
