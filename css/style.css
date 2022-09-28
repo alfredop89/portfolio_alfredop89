@@ -11,7 +11,22 @@ header {
   header nav .navbar-nav {
     margin: 0 !important; }
   header nav a {
-    color: white !important; }
+    position: relative;
+    color: white !important;
+    overflow: hidden; }
+  header nav .nav-link {
+    margin: 0 !important; }
+  header nav .nav-link:after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: aqua;
+    left: -100%;
+    bottom: 0;
+    transition: 0.5s all ease-in-out; }
+  header nav .nav-link:hover:after {
+    left: 0; }
 
 .dark-header {
   background-color: rgba(0, 0, 0, 0.798);
@@ -158,14 +173,29 @@ footer {
 
 @media screen and (min-width: 992px) {
   .bar-nav {
-    display: none; } }
+    display: none; }
+
+  .nav-item {
+    width: auto;
+    margin: 15px 0px; } }
 @media screen and (max-width: 992px) {
   header {
     padding: 80px !important; }
 
   .logo {
-    height: 50px !important; } }
+    height: 50px !important; }
+
+  .nav-item {
+    width: auto;
+    margin: 15px 0px; }
+
+  h1 {
+    font-size: 60px !important; } }
 @media screen and (max-width: 575.98px) {
+  .nav-item {
+    width: auto;
+    margin: 15px 0px; }
+
   .banner-text {
     background-color: rgba(0, 0, 0, 0.186);
     text-align: center;

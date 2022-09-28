@@ -4,6 +4,10 @@
     .bar-nav{
         display: none;
     }
+    .nav-item{
+        width: auto;
+        margin: 15px 0px;
+    }
 
 }
 @media  screen and (max-width : 992px) {
@@ -13,11 +17,22 @@
     .logo{
         height: 50px !important;
     }
+    .nav-item{
+        width: auto;
+        margin: 15px 0px;
+    }
+    h1{
+        font-size: 60px !important;
+    }
     
 }
 
 
 @media screen and (max-width: 575.98px){
+    .nav-item{
+        width: auto;
+        margin: 15px 0px;
+    }
 
     .banner-text{
         background-color: rgba(0, 0, 0, 0.186);

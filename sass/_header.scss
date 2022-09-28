@@ -16,7 +16,26 @@ header{
             margin: 0 !important;
         }
         a{
+            position: relative;
             color: white !important;
+            overflow: hidden;
+        }
+        .nav-link{
+            margin: 0 !important;
+        }
+        .nav-link:after{
+            content: '';
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background-color: aqua;
+            left: -100%;
+            bottom: 0;
+            transition: 0.5s all ease-in-out;
+            
+        }
+        .nav-link:hover:after{
+            left: 0;
         }
     }
 
